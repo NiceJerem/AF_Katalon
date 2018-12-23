@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_RESERVATION_ALLER,Firefox 64.0,,2018-12-23 20:51:21,2018-12-23 20:52:18,"56,798s",FAILED
+,,,,,,
+Test Cases/RESERVATION/CT_RESERVATION_ALLER,Firefox 64.0,,2018-12-23 20:51:21,2018-12-23 20:52:14,"53,122s",FAILED
+"openBrowser(""www.airfrance.fr"")",Firefox 64.0,,2018-12-23 20:51:23,2018-12-23 20:52:11,"48,101s",PASSED
+"click(findTestObject(""RESERVATION_ALLER_OR/Page_00_Billets davion rservation de v/01_span_Accepter""))",Firefox 64.0,,2018-12-23 20:52:11,2018-12-23 20:52:12,"0,941s",PASSED
+"click(findTestObject(""RESERVATION_ALLER_OR/Page_00_Billets davion rservation de v/02_label_ALLER SIMPLE""))",Firefox 64.0,,2018-12-23 20:52:12,2018-12-23 20:52:13,"1,124s",PASSED
+"setText(findTestObject(""RESERVATION_ALLER_OR/Page_00_Billets davion rservation de v/03_input_Aroport de dpart_minibe_""), ""CDG"" + ENTER)",Firefox 64.0,,2018-12-23 20:52:13,2018-12-23 20:52:13,"0,456s",PASSED
+"setText(findTestObject(""RESERVATION_ALLER_OR/Page_00_Billets davion rservation de v/04_input_concat(Aroport d arrive""), ""NCE"" + ENTER)",Firefox 64.0,,2018-12-23 20:52:13,2018-12-23 20:52:14,"0,552s",PASSED
+"waitForElementClickable(findTestObject(""RESERVATION_ALLER_OR/Page_00_Billets davion rservation de v/05_td_31""), 0)",Firefox 64.0,,2018-12-23 20:52:14,2018-12-23 20:52:14,"0,658s",FAILED

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_RESERVATION_ALLER" time="30" tests="1" failures="0" errors="0">
+   <testsuite name="TS_RESERVATION_ALLER" tests="1" failures="0" errors="0" time="30" timestamp="2018-12-23 22:11:18" hostname="DESKTOP-EIBNNE1$ - DESKTOP-EIBNNE1" id="Test Suites/TS_RESERVATION/TS_RESERVATION_ALLER">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Jerem\\Katalon Studio\\AF_TEST\\Reports\\TS_RESERVATION\\TS_RESERVATION_ALLER\\20181223_221110"/>
+         <property name="logFiles" value="C:\\Users\\Jerem\\Katalon Studio\\AF_TEST\\Reports\\TS_RESERVATION\\TS_RESERVATION_ALLER\\20181223_221110\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DESKTOP-EIBNNE1$ - DESKTOP-EIBNNE1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.0.1"/>
+         <property name="browser" value="Firefox 64.0"/>
+         <property name="hostAddress" value="192.168.220.1"/>
+         <property name="sessionId" value="7b81e956-8bb3-421b-93bf-a07325003138"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/RESERVATION/CT_RESERVATION_ALLER" classname="Test Cases/RESERVATION/CT_RESERVATION_ALLER" status="PASSED">
+         <system-out><![CDATA[2018-12-23 22:11:19 - [TEST_CASE][PASSED] - Test Cases/RESERVATION/CT_RESERVATION_ALLER: Test Cases/RESERVATION/CT_RESERVATION_ALLER
+
+2018-12-23 22:11:20 - [TEST_STEP][PASSED] - openBrowser("www.airfrance.fr"): Browser is opened with url: 'www.airfrance.fr'
+
+2018-12-23 22:11:21 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2018-12-23 22:11:21 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-23 22:11:34 - [MESSAGE][PASSED] - Browser is opened with url: 'www.airfrance.fr'
+
+2018-12-23 22:11:34 - [TEST_STEP][PASSED] - click(findTestObject("RESERVATION_ALLER_OR/Page_00_Billets davion rservation de v/01_span_Accepter")): Object: 'Object Repository/RESERVATION_ALLER_OR/Page_00_Billets davion rservation de v/01_span_Accepter' is clicked on
+
+2018-12-23 22:11:35 - [MESSAGE][PASSED] - Object: 'Object Repository/RESERVATION_ALLER_OR/Page_00_Billets davion rservation de v/01_span_Accepter' is clicked on
+
+2018-12-23 22:11:35 - [TEST_STEP][PASSED] - click(findTestObject("RESERVATION_ALLER_OR/Page_00_Billets davion rservation de v/02_label_ALLER SIMPLE")): Object: 'Object Repository/RESERVATION_ALLER_OR/Page_00_Billets davion rservation de v/02_label_ALLER SIMPLE' is clicked on
+
+2018-12-23 22:11:36 - [MESSAGE][PASSED] - Object: 'Object Repository/RESERVATION_ALLER_OR/Page_00_Billets davion rservation de v/02_label_ALLER SIMPLE' is clicked on
+
+2018-12-23 22:11:36 - [TEST_STEP][PASSED] - setText(findTestObject("RESERVATION_ALLER_OR/Page_00_Billets davion rservation de v/03_input_Aroport de dpart_minibe_"), "CDG" + ENTER): Text 'ENTER + CDG' is set on object 'Object Repository/RESERVATION_ALLER_OR/Page_00_Billets davion rservation de v/03_input_Aroport de dpart_minibe_'
+
+2018-12-23 22:11:36 - [MESSAGE][PASSED] - Text 'ENTER + CDG' is set on object 'Object Repository/RESERVATION_ALLER_OR/Page_00_Billets davion rservation de v/03_input_Aroport de dpart_minibe_'
+
+2018-12-23 22:11:36 - [TEST_STEP][PASSED] - setText(findTestObject("RESERVATION_ALLER_OR/Page_00_Billets davion rservation de v/04_input_concat(Aroport d arrive"), "NCE" + ENTER): Text 'ENTER + NCE' is set on object 'Object Repository/RESERVATION_ALLER_OR/Page_00_Billets davion rservation de v/04_input_concat(Aroport d arrive'
+
+2018-12-23 22:11:37 - [MESSAGE][PASSED] - Text 'ENTER + NCE' is set on object 'Object Repository/RESERVATION_ALLER_OR/Page_00_Billets davion rservation de v/04_input_concat(Aroport d arrive'
+
+2018-12-23 22:11:37 - [TEST_STEP][PASSED] - click(findTestObject("RESERVATION_ALLER_OR/Page_00_Billets davion rservation de v/button_24 dc. 2018")): Object: 'Object Repository/RESERVATION_ALLER_OR/Page_00_Billets davion rservation de v/button_24 dc. 2018' is clicked on
+
+2018-12-23 22:11:37 - [MESSAGE][PASSED] - Object: 'Object Repository/RESERVATION_ALLER_OR/Page_00_Billets davion rservation de v/button_24 dc. 2018' is clicked on
+
+2018-12-23 22:11:37 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("RESERVATION_ALLER_OR/Page_00_Billets davion rservation de v/td_31"), 0): Object 'Object Repository/RESERVATION_ALLER_OR/Page_00_Billets davion rservation de v/td_31' is clickable
+
+2018-12-23 22:11:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-12-23 22:11:37 - [MESSAGE][PASSED] - Object 'Object Repository/RESERVATION_ALLER_OR/Page_00_Billets davion rservation de v/td_31' is clickable
+
+2018-12-23 22:11:37 - [TEST_STEP][PASSED] - click(findTestObject("RESERVATION_ALLER_OR/Page_00_Billets davion rservation de v/td_31")): Object: 'Object Repository/RESERVATION_ALLER_OR/Page_00_Billets davion rservation de v/td_31' is clicked on
+
+2018-12-23 22:11:38 - [MESSAGE][PASSED] - Object: 'Object Repository/RESERVATION_ALLER_OR/Page_00_Billets davion rservation de v/td_31' is clicked on
+
+2018-12-23 22:11:38 - [TEST_STEP][PASSED] - click(findTestObject("RESERVATION_ALLER_OR/Page_00_Billets davion rservation de v/06_button_RECHERCHER")): Object: 'Object Repository/RESERVATION_ALLER_OR/Page_00_Billets davion rservation de v/06_button_RECHERCHER' is clicked on
+
+2018-12-23 22:11:45 - [MESSAGE][PASSED] - Object: 'Object Repository/RESERVATION_ALLER_OR/Page_00_Billets davion rservation de v/06_button_RECHERCHER' is clicked on
+
+2018-12-23 22:11:45 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("RESERVATION_ALLER_OR/Page_01_Rserver un billet - Liste des/li_tape en cours    Horaires"), 0): Object 'Object Repository/RESERVATION_ALLER_OR/Page_01_Rserver un billet - Liste des/li_tape en cours    Horaires' is visible
+
+2018-12-23 22:11:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-12-23 22:11:45 - [MESSAGE][PASSED] - Object 'Object Repository/RESERVATION_ALLER_OR/Page_01_Rserver un billet - Liste des/li_tape en cours    Horaires' is visible
+
+2018-12-23 22:11:45 - [TEST_STEP][PASSED] - assert true: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-23 22:11:18 - [TEST_SUITE][PASSED] - TS_RESERVATION_ALLER: Test Cases/RESERVATION/CT_RESERVATION_ALLER]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_RESERVATION_ALLER,Firefox 64.0,,2018-12-23 21:51:17,2018-12-23 21:51:48,"30,645s",PASSED
+,,,,,,
+Test Cases/RESERVATION/CT_RESERVATION_ALLER,Firefox 64.0,,2018-12-23 21:51:18,2018-12-23 21:51:45,"27,371s",PASSED
+"openBrowser(""www.airfrance.fr"")",Firefox 64.0,,2018-12-23 21:51:19,2018-12-23 21:51:34,"15,591s",PASSED
+"click(findTestObject(""RESERVATION_ALLER_OR/Page_00_Billets davion rservation de v/01_span_Accepter""))",Firefox 64.0,,2018-12-23 21:51:34,2018-12-23 21:51:35,"0,445s",PASSED
+"click(findTestObject(""RESERVATION_ALLER_OR/Page_00_Billets davion rservation de v/02_label_ALLER SIMPLE""))",Firefox 64.0,,2018-12-23 21:51:35,2018-12-23 21:51:35,"0,358s",PASSED
+"setText(findTestObject(""RESERVATION_ALLER_OR/Page_00_Billets davion rservation de v/03_input_Aroport de dpart_minibe_""), ""CDG"" + ENTER)",Firefox 64.0,,2018-12-23 21:51:35,2018-12-23 21:51:36,"0,812s",PASSED
+"setText(findTestObject(""RESERVATION_ALLER_OR/Page_00_Billets davion rservation de v/04_input_concat(Aroport d arrive""), ""NCE"" + ENTER)",Firefox 64.0,,2018-12-23 21:51:36,2018-12-23 21:51:37,"0,610s",PASSED
+"click(findTestObject(""RESERVATION_ALLER_OR/Page_00_Billets davion rservation de v/button_24 dc. 2018""))",Firefox 64.0,,2018-12-23 21:51:37,2018-12-23 21:51:37,"0,286s",PASSED
+"waitForElementClickable(findTestObject(""RESERVATION_ALLER_OR/Page_00_Billets davion rservation de v/td_31""), 0)",Firefox 64.0,,2018-12-23 21:51:37,2018-12-23 21:51:38,"0,638s",PASSED
+"click(findTestObject(""RESERVATION_ALLER_OR/Page_00_Billets davion rservation de v/td_31""))",Firefox 64.0,,2018-12-23 21:51:38,2018-12-23 21:51:38,"0,558s",PASSED
+"click(findTestObject(""RESERVATION_ALLER_OR/Page_00_Billets davion rservation de v/06_button_RECHERCHER""))",Firefox 64.0,,2018-12-23 21:51:38,2018-12-23 21:51:45,"6,782s",PASSED
+"waitForElementVisible(findTestObject(""RESERVATION_ALLER_OR/Page_01_Rserver un billet - Liste des/li_tape en cours    Horaires""), 0)",Firefox 64.0,,2018-12-23 21:51:45,2018-12-23 21:51:45,"0,112s",PASSED
+assert true,Firefox 64.0,,2018-12-23 21:51:45,2018-12-23 21:51:45,"0,001s",PASSED
